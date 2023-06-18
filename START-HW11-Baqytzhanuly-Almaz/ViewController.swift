@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
     
@@ -35,6 +36,8 @@ class ViewController: UIViewController {
         textField.layer.cornerRadius = 20
         textField.backgroundColor = .white
         textField.textColor = .black
+        textField.setLeftIcon(UIImage(named: "emailIcon")!)
+        textField.setRightIcon(UIImage(named: "emailCheckMark")!)
         
         return textField
     }()
@@ -47,6 +50,7 @@ class ViewController: UIViewController {
         textField.layer.cornerRadius = 20
         textField.backgroundColor = .white
         textField.textColor = .black
+        textField.setLeftIcon(UIImage(named: "passwordIcon")!)
     
         return textField
     }()
@@ -177,6 +181,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setupViews()
+        setupConstraints()
     }
     
     
@@ -198,4 +203,111 @@ class ViewController: UIViewController {
         view.addSubview(otherAccountLabel)
         view.addSubview(otherSignUpButton)
     }
+    
+    private func setupConstraints() {
+        let screenWidth = UIScreen.main.bounds.width
+        let screenHeight = UIScreen.main.bounds.height
+        
+        backgroundImageView.snp.makeConstraints { make in
+            make.top.leading.trailing.equalToSuperview()
+            make.height.equalTo(screenHeight * 0.63)
+        }
+        
+        loginLabel.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(screenHeight * 0.1)
+            make.centerX.equalToSuperview()
+        }
+        
+        emailTextField.snp.makeConstraints { make in
+            make.top.equalTo(loginLabel.snp.bottom).offset(37)
+            make.leading.equalTo(68)
+            make.trailing.equalTo(-69)
+            make.height.equalTo(40)
+        }
+        
+        passwordTextField.snp.makeConstraints { make in
+            make.top.equalTo(emailTextField.snp.bottom).offset(18)
+            make.leading.equalTo(68)
+            make.trailing.equalTo(-69)
+            make.height.equalTo(40)
+        }
+        
+        loginButton.snp.makeConstraints { make in
+            make.top.equalTo(passwordTextField.snp.bottom).offset(48)
+            make.leading.equalTo(68)
+            make.trailing.equalTo(-69)
+            make.height.equalTo(35)
+        }
+        
+        forgotPasswordButton.snp.makeConstraints { make in
+            make.top.equalTo(loginButton.snp.bottom).offset(24)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(240)
+            make.height.equalTo(35)
+        }
+        
+        leftSeparatorView.snp.makeConstraints { make in
+            make.trailing.equalTo(connectLabel.snp.leading).offset(-12)
+            make.centerY.equalTo(connectLabel.snp.centerY)
+            make.width.equalTo(85)
+            make.height.equalTo(1)
+        }
+        
+        connectLabel.snp.makeConstraints { make in
+            make.bottom.equalTo(facebookButton.snp.top).offset(-25)
+            make.centerX.equalToSuperview()
+        }
+        
+        rightSeparatorView.snp.makeConstraints { make in
+            make.leading.equalTo(connectLabel.snp.trailing).offset(12)
+            make.centerY.equalTo(connectLabel.snp.centerY)
+            make.width.equalTo(85)
+            make.height.equalTo(1)
+        }
+        
+        facebookButton.snp.makeConstraints { make in
+            make.bottom.equalToSuperview().offset(-(screenHeight * 0.18))
+            make.leading.equalTo(screenWidth * 0.072)
+            make.trailing.equalTo(-(screenWidth * 0.53))
+            make.height.equalTo(35)
+        }
+        
+        twitterButton.snp.makeConstraints { make in
+            make.bottom.equalToSuperview().offset(-(screenHeight * 0.18))
+            make.leading.equalTo(facebookButton.snp.trailing).offset(21)
+            make.trailing.equalTo(-(screenWidth * 0.072))
+            make.height.equalTo(35)
+        }
+        
+        otherAccountLabel.snp.makeConstraints { make in
+            make.bottom.equalToSuperview().offset(-(screenHeight * 0.1))
+            make.trailing.equalTo(otherSignUpButton.snp.leading).offset(-12)
+            make.centerY.equalTo(otherSignUpButton.snp.centerY)
+        }
+        
+        otherSignUpButton.snp.makeConstraints { make in
+            make.bottom.equalToSuperview().offset(-(screenHeight * 0.1))
+            make.trailing.equalToSuperview().offset(-(screenWidth * 0.3))
+        }
+    }
+}
+
+extension UITextField {
+    func setLeftIcon(_ image: UIImage) {
+            let iconView = UIImageView(frame: CGRect(x: 35, y: 4, width: 11, height: 12))
+            iconView.image = image
+            let iconContainerView: UIView = UIView(frame: CGRect(x: 0, y: 20, width: 20, height: 20))
+            iconContainerView.addSubview(iconView)
+            leftView = iconContainerView
+            leftViewMode = .always
+        }
+    
+    func setRightIcon(_ image: UIImage) {
+            let iconView = UIImageView(frame: CGRect(x: -15, y: 4, width: 12, height: 12))
+            iconView.image = image
+            let iconContainerView: UIView = UIView(frame: CGRect(x: 0, y: 20, width: 20, height: 20))
+            iconContainerView.addSubview(iconView)
+            rightView = iconContainerView
+            rightViewMode = .always
+        }
 }
