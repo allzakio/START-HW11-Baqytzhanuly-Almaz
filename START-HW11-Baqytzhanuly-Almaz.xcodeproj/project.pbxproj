@@ -10,9 +10,18 @@
 		C16B3DC92A3E7CD900B23072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B3DC82A3E7CD900B23072 /* AppDelegate.swift */; };
 		C16B3DCB2A3E7CD900B23072 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B3DCA2A3E7CD900B23072 /* SceneDelegate.swift */; };
 		C16B3DCD2A3E7CD900B23072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B3DCC2A3E7CD900B23072 /* ViewController.swift */; };
-		C16B3DD02A3E7CD900B23072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DCE2A3E7CD900B23072 /* Main.storyboard */; };
 		C16B3DD22A3E7CDA00B23072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DD12A3E7CDA00B23072 /* Assets.xcassets */; };
 		C16B3DD52A3E7CDA00B23072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DD32A3E7CDA00B23072 /* LaunchScreen.storyboard */; };
+		C16B3DDE2A3E7F2D00B23072 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C16B3DDD2A3E7F2D00B23072 /* SnapKit */; };
+		C16B3DE92A3E7F4C00B23072 /* Blinker-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE02A3E7F4C00B23072 /* Blinker-SemiBold.ttf */; };
+		C16B3DEA2A3E7F4C00B23072 /* Blinker-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE12A3E7F4C00B23072 /* Blinker-Black.ttf */; };
+		C16B3DEB2A3E7F4C00B23072 /* Blinker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE22A3E7F4C00B23072 /* Blinker-Regular.ttf */; };
+		C16B3DEC2A3E7F4C00B23072 /* Blinker-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE32A3E7F4C00B23072 /* Blinker-Light.ttf */; };
+		C16B3DED2A3E7F4C00B23072 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE42A3E7F4C00B23072 /* OFL.txt */; };
+		C16B3DEE2A3E7F4C00B23072 /* Blinker-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE52A3E7F4C00B23072 /* Blinker-Bold.ttf */; };
+		C16B3DEF2A3E7F4C00B23072 /* Blinker-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE62A3E7F4C00B23072 /* Blinker-ExtraBold.ttf */; };
+		C16B3DF02A3E7F4C00B23072 /* Blinker-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE72A3E7F4C00B23072 /* Blinker-Thin.ttf */; };
+		C16B3DF12A3E7F4C00B23072 /* Blinker-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE82A3E7F4C00B23072 /* Blinker-ExtraLight.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +29,18 @@
 		C16B3DC82A3E7CD900B23072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16B3DCA2A3E7CD900B23072 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C16B3DCC2A3E7CD900B23072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C16B3DCF2A3E7CD900B23072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16B3DD12A3E7CDA00B23072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16B3DD42A3E7CDA00B23072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C16B3DD62A3E7CDA00B23072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16B3DE02A3E7F4C00B23072 /* Blinker-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-SemiBold.ttf"; sourceTree = "<group>"; };
+		C16B3DE12A3E7F4C00B23072 /* Blinker-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Black.ttf"; sourceTree = "<group>"; };
+		C16B3DE22A3E7F4C00B23072 /* Blinker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Regular.ttf"; sourceTree = "<group>"; };
+		C16B3DE32A3E7F4C00B23072 /* Blinker-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Light.ttf"; sourceTree = "<group>"; };
+		C16B3DE42A3E7F4C00B23072 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C16B3DE52A3E7F4C00B23072 /* Blinker-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Bold.ttf"; sourceTree = "<group>"; };
+		C16B3DE62A3E7F4C00B23072 /* Blinker-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C16B3DE72A3E7F4C00B23072 /* Blinker-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Thin.ttf"; sourceTree = "<group>"; };
+		C16B3DE82A3E7F4C00B23072 /* Blinker-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-ExtraLight.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16B3DDE2A3E7F2D00B23072 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +77,28 @@
 				C16B3DC82A3E7CD900B23072 /* AppDelegate.swift */,
 				C16B3DCA2A3E7CD900B23072 /* SceneDelegate.swift */,
 				C16B3DCC2A3E7CD900B23072 /* ViewController.swift */,
-				C16B3DCE2A3E7CD900B23072 /* Main.storyboard */,
 				C16B3DD12A3E7CDA00B23072 /* Assets.xcassets */,
 				C16B3DD32A3E7CDA00B23072 /* LaunchScreen.storyboard */,
 				C16B3DD62A3E7CDA00B23072 /* Info.plist */,
+				C16B3DDF2A3E7F4C00B23072 /* Project font */,
 			);
 			path = "START-HW11-Baqytzhanuly-Almaz";
+			sourceTree = "<group>";
+		};
+		C16B3DDF2A3E7F4C00B23072 /* Project font */ = {
+			isa = PBXGroup;
+			children = (
+				C16B3DE02A3E7F4C00B23072 /* Blinker-SemiBold.ttf */,
+				C16B3DE12A3E7F4C00B23072 /* Blinker-Black.ttf */,
+				C16B3DE22A3E7F4C00B23072 /* Blinker-Regular.ttf */,
+				C16B3DE32A3E7F4C00B23072 /* Blinker-Light.ttf */,
+				C16B3DE42A3E7F4C00B23072 /* OFL.txt */,
+				C16B3DE52A3E7F4C00B23072 /* Blinker-Bold.ttf */,
+				C16B3DE62A3E7F4C00B23072 /* Blinker-ExtraBold.ttf */,
+				C16B3DE72A3E7F4C00B23072 /* Blinker-Thin.ttf */,
+				C16B3DE82A3E7F4C00B23072 /* Blinker-ExtraLight.ttf */,
+			);
+			path = "Project font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +117,9 @@
 			dependencies = (
 			);
 			name = "START-HW11-Baqytzhanuly-Almaz";
+			packageProductDependencies = (
+				C16B3DDD2A3E7F2D00B23072 /* SnapKit */,
+			);
 			productName = "START-HW11-Baqytzhanuly-Almaz";
 			productReference = C16B3DC52A3E7CD900B23072 /* START-HW11-Baqytzhanuly-Almaz.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,9 @@
 				Base,
 			);
 			mainGroup = C16B3DBC2A3E7CD900B23072;
+			packageReferences = (
+				C16B3DDC2A3E7F2D00B23072 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C16B3DC62A3E7CD900B23072 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +165,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16B3DED2A3E7F4C00B23072 /* OFL.txt in Resources */,
+				C16B3DEE2A3E7F4C00B23072 /* Blinker-Bold.ttf in Resources */,
 				C16B3DD52A3E7CDA00B23072 /* LaunchScreen.storyboard in Resources */,
+				C16B3DEB2A3E7F4C00B23072 /* Blinker-Regular.ttf in Resources */,
+				C16B3DF12A3E7F4C00B23072 /* Blinker-ExtraLight.ttf in Resources */,
+				C16B3DE92A3E7F4C00B23072 /* Blinker-SemiBold.ttf in Resources */,
+				C16B3DEC2A3E7F4C00B23072 /* Blinker-Light.ttf in Resources */,
+				C16B3DEA2A3E7F4C00B23072 /* Blinker-Black.ttf in Resources */,
+				C16B3DF02A3E7F4C00B23072 /* Blinker-Thin.ttf in Resources */,
 				C16B3DD22A3E7CDA00B23072 /* Assets.xcassets in Resources */,
-				C16B3DD02A3E7CD900B23072 /* Main.storyboard in Resources */,
+				C16B3DEF2A3E7F4C00B23072 /* Blinker-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C16B3DCE2A3E7CD900B23072 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C16B3DCF2A3E7CD900B23072 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C16B3DD32A3E7CDA00B23072 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +332,6 @@
 				INFOPLIST_FILE = "START-HW11-Baqytzhanuly-Almaz/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +359,6 @@
 				INFOPLIST_FILE = "START-HW11-Baqytzhanuly-Almaz/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C16B3DDC2A3E7F2D00B23072 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C16B3DDD2A3E7F2D00B23072 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16B3DDC2A3E7F2D00B23072 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C16B3DBD2A3E7CD900B23072 /* Project object */;
 }
