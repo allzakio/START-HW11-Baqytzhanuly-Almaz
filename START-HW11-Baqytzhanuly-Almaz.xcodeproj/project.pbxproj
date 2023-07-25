@@ -23,6 +23,8 @@
 		C16B3DF02A3E7F4C00B23072 /* Blinker-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE72A3E7F4C00B23072 /* Blinker-Thin.ttf */; };
 		C16B3DF12A3E7F4C00B23072 /* Blinker-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B3DE82A3E7F4C00B23072 /* Blinker-ExtraLight.ttf */; };
 		C195E83C2A6EED5A0091BAA6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195E83B2A6EED5A0091BAA6 /* User.swift */; };
+		C195E83E2A6EEF0A0091BAA6 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195E83D2A6EEF0A0091BAA6 /* AuthorizationViewModel.swift */; };
+		C195E8412A6EEF570091BAA6 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195E8402A6EEF570091BAA6 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		C16B3DE72A3E7F4C00B23072 /* Blinker-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-Thin.ttf"; sourceTree = "<group>"; };
 		C16B3DE82A3E7F4C00B23072 /* Blinker-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Blinker-ExtraLight.ttf"; sourceTree = "<group>"; };
 		C195E83B2A6EED5A0091BAA6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C195E83D2A6EEF0A0091BAA6 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		C195E8402A6EEF570091BAA6 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 		C195E8392A6EECA90091BAA6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C195E83D2A6EEF0A0091BAA6 /* AuthorizationViewModel.swift */,
+				C195E83F2A6EEF480091BAA6 /* Bindings */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -150,6 +156,14 @@
 				C16B3DCA2A3E7CD900B23072 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C195E83F2A6EEF480091BAA6 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				C195E8402A6EEF570091BAA6 /* Dynamic.swift */,
+			);
+			path = Bindings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +254,9 @@
 				C195E83C2A6EED5A0091BAA6 /* User.swift in Sources */,
 				C16B3DCD2A3E7CD900B23072 /* ViewController.swift in Sources */,
 				C16B3DC92A3E7CD900B23072 /* AppDelegate.swift in Sources */,
+				C195E8412A6EEF570091BAA6 /* Dynamic.swift in Sources */,
 				C16B3DCB2A3E7CD900B23072 /* SceneDelegate.swift in Sources */,
+				C195E83E2A6EEF0A0091BAA6 /* AuthorizationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
